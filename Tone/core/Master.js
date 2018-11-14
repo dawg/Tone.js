@@ -13,7 +13,7 @@ define(["../core/Tone", "../component/Volume", "../core/Context", "../core/Audio
 	 *          on initialization and you do not need to explicitly construct one.
 	 *
 	 *  @constructor
-	 *  @extends {Tone}
+	 *  @extends {Tone.AudioNode}
 	 *  @singleton
 	 *  @example
 	 * //the audio will go from the oscillator to the speakers
