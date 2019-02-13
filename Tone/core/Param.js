@@ -92,7 +92,7 @@ define(["../core/Tone", "../type/Type", "../core/AudioNode", "../core/Timeline"]
 	 * The minimum output value of the parameter
 	 * @memberOf Tone.Param#
 	 * @type {Number}
-	 * @name value
+	 * @name minValue
 	 */
 	Object.defineProperty(Tone.Param.prototype, "minValue", {
 		get : function(){
@@ -114,7 +114,7 @@ define(["../core/Tone", "../type/Type", "../core/AudioNode", "../core/Timeline"]
 	 * The maximum output value of the parameter
 	 * @memberOf Tone.Param#
 	 * @type {Number}
-	 * @name value
+	 * @name maxValue
 	 */
 	Object.defineProperty(Tone.Param.prototype, "maxValue", {
 		get : function(){
